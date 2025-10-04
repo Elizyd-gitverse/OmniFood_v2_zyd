@@ -30,7 +30,6 @@ if(theme === 'dark') {
   toggleBtn.checked = true
 }
 
-console.log("Move to new Folder");
 
 
 
