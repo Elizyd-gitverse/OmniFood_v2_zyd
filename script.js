@@ -24,12 +24,13 @@ const switchTheme = function(e) {
 toggleBtn.addEventListener('change', switchTheme)
 
 const theme = localStorage.getItem('theme')
-console.log(theme)
 if(theme === 'dark') {
   document.documentElement.setAttribute('data-theme', 'dark')
   lightOrDark(true)
   toggleBtn.checked = true
 }
+
+console.log("Move to new Folder");
 
 
 
